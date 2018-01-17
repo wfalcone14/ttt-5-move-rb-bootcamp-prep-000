@@ -14,4 +14,5 @@ def input_to_index(num)
 end
 
 def move(board,input_to_index,pos = "X")
-  
+  board[input_to_index] = pos
+end 
